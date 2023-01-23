@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="validation.js"></script>
+</head>
+<body>
+
+    <div class="menu-bar">
+        <div class="buttons-of-bar">
+            <a class="btn" href="#Home">Home</a>
+            <a class="btn" href="#About">About</a>
+            <a class="btn" href="#">Portfolio</a>
+            <a class="btn" href="#Contact">Contact</a>
+        </div>
+    </div>
+
+    <div class="home-box">
+        <p class="intro" id="Home">Heyy there welcome to my personal website. Here you are going to find some information about me, 
+            projects that a have made and a way that you can communicate with me easily!!
+        </p>
+        <img class="left-prof"src="images/left-prof.png">
+        <img class="mid-prof" src="images/mid-prof.png">
+    </div>
+
+    <div class="profile" id="About" >
+        <div class="image-box"  >
+            <img class="image" src="images/me.jpg">
+        </div>
+        <div class="Me">
+            Yeahh thats Me!!
+        </div>
+    </div>
+
+    <div class="info-box"> 
+        <div class="info-par-box">
+            <b class="skills-par">About Me</b>
+        </div>
+        <p>Full Name:Christos Agoratzis</p>
+        <p>Date of Birth:14/06/2002</p>
+        <p>place of living:Agios Petros, Kilkis, 61007</p>
+        <p>Phone number:6988293944</p>
+        <p>Email:c.agoratzis@gmail.com</p>
+        <p>Department of Information and electronic engineering at IHU</p>
+    </div>
+
+
+    <div class="skills">
+        <div class="s-par-box">
+            <b class="skills-par">Skills</b>
+        </div>
+        
+        <p>Good understanding in fundamentals of programming languages like C/C++, Java, Python, Javascript and PHP</p>
+        <p>Good Knowlednge of how to use sql in databases servers like PostgreSQL and MySQL</p>
+        <p>Familiar with frameworks like React, node.js and Bootstrap </p>
+        <p>I Also have some basic Knowlednge about microcontroller and microprossecor programming with ASSEMBLY</p>
+    </div>
+
+   
+    <div class="port-text">There are some projects i made using programming languages like Javascript and PHP. You can
+        see the projects by clicking the button below!!
+    </div>
+
+    <div class="port-card">
+        <div class="port-imgs">
+            <img  class="img" src="images/calc.png">
+        </div>
+        <div class="card-text">
+            <p>Javascript calculator</p>
+            <button class="port-btn"><a href="projects/calculator.html">Click Me!</a></button>
+        </div>
+    </div>
+    
+   
+
+    <div class="smbox">
+        <div class="info-smbox">
+            <p  class="sm-info">You can also find me in my social<br> media where are down bellow!!</p>
+        </div>
+        <div class="links-box">
+            <a href="https://www.facebook.com/profile.php?id=100007750249110">
+                <img class="icon"  src="Icons/facebook.png" width="60px">
+            </a>
+            <a href="https://www.instagram.com/christos_agoratzis/">
+                <img class="icon" src="Icons/instagram.png" width="60px">
+            </a>
+            <a href="https://twitter.com/agoratzes">
+                <img  class="icon" src="Icons/twitter.png" width="60px">
+            </a>
+            <a href="https://www.linkedin.com/in/christosagoratzis/">
+                <img  class="icon" src="Icons/linkedin.png" width="60px">
+            </a>
+        </div>
+    </div>
+
+
+    <form action="validation.php" method="post" name="Contact" class="form-box" id="Contact">
+        <div class="par">Fill ditails in the form below</div>
+        <p>FullName:</p>
+        <input type="text" placeholder="Type Here" name="fullname">
+        <div id ="not-full"></div>
+        <p>Email: </p>
+        <input type="text" placeholder="Type Here" name="email">
+        <div id="not-email"></div>
+        <p>Phone Number:</p>
+        <input type="text" placeholder="Type Here" name="number">
+        <div id="not-num"></div>
+        <button type="submit" class="button-of-form">Submit</button>
+        <div id="not-butt"></i>
+
+        </form>
+</body>
+</html>

@@ -1,0 +1,272 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 2400px;
+    background-color: rgb(20, 20, 20);
+}
+
+
+
+.menu-bar{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 50px;
+    background-color: rgb(20, 20, 20);
+    box-shadow: 0px 6px 10px black;
+    z-index: 200;
+}
+.buttons-of-bar{
+    position: absolute;
+    top: 10px;
+    right: 60px;
+    border-radius: 8px;
+}
+.btn{
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 3px 3px 4px rgb(0, 0, 0);
+    color: white;
+    margin-right: 20px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+.btn:hover{
+    opacity: 0.3;
+}
+
+
+.intro{
+    margin-top: 120px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: 600;
+    padding-right: 60px;
+}
+.mid-prof{
+    margin-left: 400px;
+}
+
+
+
+.profile{
+    display: inline-block;
+    position: absolute;
+    top: 800px;
+    left: 200px;
+    box-shadow: 6px 6px 10px black;
+    border-radius: 10px;     
+}
+.image{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 300px;
+    height: 300px;
+    border-bottom: solid black 1px;
+}
+.Me{
+    margin: 20px;
+    font-size: 24px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+   
+}
+
+
+
+
+
+.info-box{
+    display: inline-block;
+    position: absolute;
+    top: 800px;
+    right: 200px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px black;
+    width: 500px;
+   
+
+}
+.info-par-box{
+   border-bottom: solid black 1px;
+   text-align: center;
+}
+
+
+
+.skills{
+    box-shadow: 6px 6px 10px black;
+    display: inline-block;
+    position: absolute;
+    top: 1200px;
+    right: 400px;
+    width:600px;
+    border-radius: 10px;
+   
+   
+}
+.s-par-box{
+    border-bottom: solid black 1px;
+    text-align: center;
+
+}
+.skills-par{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color:  white;
+  
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    display: block;
+    margin-left: 30px;
+    color:  white;
+    
+}
+
+
+.port-text{
+    position: absolute;
+    top: 1700px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    display: block;
+    margin-left: 30px;
+    color:  white;
+
+}
+.port-card{
+    position: absolute;
+    display: inline-block;
+    top: 1800px;
+    left: 200px;
+    box-shadow: 6px 6px 10px rgb(0, 0, 0);
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+}
+
+.img{
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+}
+.port-btn{
+    background-color: rgb(20, 20, 20);
+    border: none;
+    box-shadow: 6px 6px 10px rgb(0, 0, 0);
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.port-btn:hover{
+    opacity: 0.4;
+}
+
+
+.smbox{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    top: 2500px;
+    right: 200px;
+    width: 440px;
+    height: 200px;
+    box-shadow: 6px 6px 10px rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.info-smbox{
+    border-bottom: solid rgb(0, 0, 0) 2px;
+   
+}
+.links-box{
+    padding-top: 20px;
+}
+.icon{
+    margin-right: 20px;
+}
+
+
+
+
+
+.form-box{
+    position: absolute;
+    display: inline-block;
+    top: 2500px;
+    left: 200px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px rgb(0, 0, 0);
+}
+.par{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color:  white;
+    height: 40px;
+    width: 400px;
+    border-bottom: solid black 1px;
+    padding-top: 10px;   
+}
+
+
+.info{
+   box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.192);
+   margin-left: 0px;
+}
+.button-of-form{
+    margin-left: 20px;
+    background-color: rgb(41, 41, 41);
+    box-shadow: 4px 4px 10px black;
+    color: white;
+    border-radius: 8px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 8px;
+    border: none;
+    
+}
+input{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);;
+    border-radius: 40px;
+    display: block;
+    margin-left: 40px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.button-of-form:hover{
+    opacity: 0.6;
+}
+.button-of-form:active{
+    opacity: 1;
+}
+
+
+
+
